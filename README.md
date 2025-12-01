@@ -1,8 +1,16 @@
 # Simulador de Memoria Virtual con Paginación y Swap
 
 ## i. Nombre del integrante
-- Nombre: Zamora Camacho Adal Mauricio  
-- Legajo: a2213332218
+Zamora Camacho Adal Mauricio
+A2213332218
+Mendez Guerrero Pablo Daniel
+a2223330178
+Ortega Resendiz Luis Fernando
+a2183330150
+Sanchez Morales Jesus
+a2223339020
+Vergara Gonzalez Magnus Henrich
+a2143222011
 
 ## ii. Cómo compilar y ejecutar
 
@@ -33,5 +41,6 @@ g++ -std=c++17 src/*.cpp -o simulador.exe
 - TLB: un vector simple con política FIFO (el más viejo sale primero).  
 - Algoritmos de reemplazo: hice una clase abstracta ReplacementAlgorithm y tres clases que heredan: FIFO, LRU y Clock.  
   El programa elige cuál usar leyendo el config.ini, así no hay que tocar código para cambiarlo.
+
 
 Todo está hecho en C++17, es puro código de consola y corre en cualquier Windows sin instalar nada.
