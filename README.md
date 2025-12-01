@@ -1,16 +1,16 @@
 # Simulador de Memoria Virtual con Paginación y Swap
 
 ## i. Nombre del integrante
-Zamora Camacho Adal Mauricio
-A2213332218
-Mendez Guerrero Pablo Daniel
-a2223330178
-Ortega Resendiz Luis Fernando
-a2183330150
-Sanchez Morales Jesus
-a2223339020
-Vergara Gonzalez Magnus Henrich
-a2143222011
+- Zamora Camacho Adal Mauricio
+- A2213332218
+- Mendez Guerrero Pablo Daniel
+- a2223330178
+- Ortega Resendiz Luis Fernando
+- a2183330150
+- Sanchez Morales Jesus
+- a2223339020
+- Vergara Gonzalez Magnus Henrich
+- a2143222011
 
 ## ii. Cómo compilar y ejecutar
 
@@ -44,3 +44,4 @@ g++ -std=c++17 src/*.cpp -o simulador.exe
 
 
 Todo está hecho en C++17, es puro código de consola y corre en cualquier Windows sin instalar nada.
+
